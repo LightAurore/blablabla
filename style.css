@@ -5,10 +5,10 @@
 }
 
 body{
-    background-image: linear-gradient(red, yellow, orange);
+    background: white;
     color: brown;
-    width: 100vw;
-    height: 100vh;
+    min-width: 100vw;
+    min-height: 900px;
 
     display: flex;
     justify-content: center;
@@ -26,6 +26,9 @@ body{
     width: 1200px;
     height: 25px;
     background-color: cadetblue;
+
+    display: flex;
+    justify-content: space-between;
 }
 
 figure{
@@ -39,9 +42,20 @@ img{
 
 /* HEADER */
 header{
+    display: flex;
     width: 1200px;
     height: 350px;
     background-color: darkorange;
+}
+
+.logo{
+    width: 100%;
+    height:auto;
+    background-color: antiquewhite;
+}
+
+header h1{
+    
 }
 
 
@@ -49,7 +63,8 @@ header{
 nav{
     width: 1200px;
     height: 30px;
-    background-color: aqua;
+    
+    border: thin double brown;
 
     display: flex;
     justify-content: center;
@@ -69,13 +84,17 @@ nav a{
 main{
     display: flex;
     width: 1200px;
-    height: 900px;
+    min-height: 900px;
+    flex: 1;
+
+    box-shadow: 1px 1px 2px 1px orangered;
 }
 
 aside{
     width: 25%;
     background-color: rgba(0, 0, 139, 0.2);
     height: 900px;
+    margin: 2px;
 }
 
 section{
@@ -83,6 +102,8 @@ section{
     display: grid;
     grid-template-columns:1fr;
     gap: 5px;
+    margin: 2px;
+    min-height: 900px;
 }
 
 article{
@@ -94,6 +115,5 @@ article{
 /* FOOTER */
 footer{
     width: 1200px;
-    height: 20px;
+    height: 200px;
     background-color: indigo;
-}
