@@ -5,38 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body{
-            background-image: linear-gradient(red, yellow, orange);
-            color: brown;
-            width: 100vw;
-            height: 100vh;
-
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-
-        figure{
-            width: 200px;
-        }
-
-        img{
-            width: 100%;
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Cours GitHub</h1>
-    <h2>premier cours</h2>
-    <figure>
-        <img src="people.jpg" alt="couple">
-        <figcaption>Nom et Prénom</figcaption>
-    </figure>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        A, quia consequatur modi ea eaque,
-        veritatis maiores inventore officia corrupti dolor quas similique voluptas atque animi! </p>
+    <div class="global">
+        <!--  top bar -->
+    <div class="topbar">
+        <div class="reseaux">Facebook</div>
+        <div class="compte">count</div>
+    </div>
+    <!--  Header   -->
+    <header>
+        <figure>
+            <img src="logo.png" alt="logo" class="logo">
+            <figcaption></figcaption>
+        </figure>
+        <h1>Cours GitHub</h1>
+    </header>
+    <!--   Navigation   -->
+    <nav>
+        <a href="#">Accueil</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Services</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <!--  Main   -->
+    <main>
+        <aside>
+            <div class="card">
+
+                <figure>
+                    <img src="people.jpg" alt="couple">
+                    <figcaption>Nom et Prénom</figcaption>
+                </figure>
+                <h2>premier cours</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    A, quia consequatur modi ea eaque,
+                    veritatis maiores inventore officia corrupti dolor quas similique voluptas atque animi! 
+                </p>
+            </div>
+        </aside>
+        <!--      section    -->
+        <section>
+            <article class=""></article>
+            <article class=""></article>
+            <article class=""></article>
+        </section>
+
+    </main>
+    <!--   footer    -->
+    <footer>
+
+    </footer>
+    </div>
+
 </body>
 </html>
